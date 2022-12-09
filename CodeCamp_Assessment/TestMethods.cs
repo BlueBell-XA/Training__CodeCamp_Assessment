@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 namespace CodeCamp_Assessment
 {
     [TestClass]
-    public class UnitTest1
+    public class TestMethods
     {
         #pragma warning disable CS8618
         private IWebDriver _driver;
