@@ -23,6 +23,6 @@ public class NavigationItem
     public void ClickOrders()
     {
         // TODO find more concrete way of locating order count
-        _driver.FindElements((By.CssSelector("[href=\"#/order\"]")))[1].Click();
+        _driver.FindElement((By.CssSelector("aria-label=\"your order\"]"))).Click();
     }
 }
